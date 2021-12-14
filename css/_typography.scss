@@ -1,0 +1,13 @@
+@use 'colors';
+
+h1 {
+    font-size: 12.5rem; //125px
+    color: colors.$blue; //private member
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}

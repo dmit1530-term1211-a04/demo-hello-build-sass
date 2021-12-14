@@ -1,0 +1,7 @@
+@use 'colors';
+
+footer {
+    background-color: colors.$white;
+    font-style: italic;
+    padding: 1.5rem 3rem;
+}

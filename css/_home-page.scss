@@ -1,0 +1,29 @@
+@use 'colors';
+@use 'mixins';
+
+section {
+    margin: 0 auto;
+    width: 30rem;
+    @include mixins.break(med) {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    //column classes
+    .col {
+        //width: 30rem;
+        margin-bottom: 3.6rem;
+        padding-bottom: 3.6rem;
+        background-color: colors.$white;
+        text-align: center;
+        font-size: 1.8rem;
+
+        //nested elements
+        img {
+            margin-bottom: 3.6rem;
+        }
+        li {
+            line-height: 3.6rem; //or a line-height of 2 (unitless measurement) 36/18 = 2
+        }
+    }
+}
